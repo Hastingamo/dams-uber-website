@@ -10,7 +10,9 @@ import { getFirestore } from "firebase/firestore";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_fIREBASE_AUTH_DOMAIN,
+  // authDomain: process.env.NEXT_PUBLIC_fIREBASE_AUTH_DOMAIN,
+      authDomain: "myuberwebsite.firebaseapp.com",
+
   projectId: process.env.NEXT_PUBLIC_fIREBASE_PROJECT_ID,
   storageBucket: process.env.NEXT_PUBLIC_fIREBASE_STORAGE_BUCKET,
   messagingSenderId: process.env.NEXT_PUBLIC_fIREBASE_MESSAGING_SENDER_ID,
