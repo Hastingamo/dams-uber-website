@@ -6,6 +6,7 @@ import Link from "next/link";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { getDoc, setDoc, doc } from "firebase/firestore";
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import { auth } from "../Component/firebase";
 
 function Page() {
   const provider = new GoogleAuthProvider();
