@@ -58,9 +58,9 @@ function page() {
        <h1>where to</h1>
     </div>
     <PickOn/>
-    <div className='w-full border border-black rounded-2xl'>
+    <div className='w-full border border-black rounded-2xl px-4'>
       <input placeholder='from where' type='string' className=' w-full'></input> 
-      <input placeholder='from where' type='string' className=' w-full'></input>
+      <input placeholder='to where' type='string' className=' w-full'></input>
        </div>
     </>
   )

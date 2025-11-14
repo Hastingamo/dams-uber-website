@@ -33,7 +33,7 @@ body {
   height: 100vh;
 }
 .bg-home {
-  background-image: url("/image/c-30.jpeg");
+    background-image: url("/image/taxi.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;

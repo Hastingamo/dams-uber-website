@@ -15,9 +15,9 @@ function Page() {
     </h1>
     <input placeholder='where to?' onClick={search} className='border p-1 w-full rounded-2xl'/>
       <div className='grid grid-cols-3 mt-4'>
-        <button>trip</button>
-        <button>send item</button>
-        <button>reserve</button>
+        <button className='border shadow-2xl'>trip</button>
+        <button className='border shadow-2xl'>send item</button>
+        <button className='border shadow-2xl'>reserve</button>
       </div>
     </div>
   )
