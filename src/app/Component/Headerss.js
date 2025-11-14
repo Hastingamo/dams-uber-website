@@ -7,7 +7,9 @@ function Headerss() {
     <>
       <div className="grid-cols-2 grid ">
         <div>
-          <Link href="/Dispatch">
+          <Link className="flex flex-row" href="/Dispatch">
+                    <Image src="/Image/bike.png" alt="taxi" width={20} height={10} />
+
             <h1>Courier</h1>
           </Link>
         </div>
